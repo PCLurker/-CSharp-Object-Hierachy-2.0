@@ -16,7 +16,7 @@ namespace _CSharp__Object_Hierachy_2._0
             // Debug
             Console.WriteLine("InnerObject created.");
         }
-        public InnerObject(InnerObject C): this(C.A, C.B, C.Note) { }
+        public InnerObject(InnerObject C) : this(C.A, C.B, C.Note) { }
         public virtual InnerObject Clone() { return new InnerObject(this); }
     }
 }

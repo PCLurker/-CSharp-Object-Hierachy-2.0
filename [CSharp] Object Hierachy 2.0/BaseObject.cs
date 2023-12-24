@@ -31,7 +31,7 @@ namespace _CSharp__Object_Hierachy_2._0
         /// Deep copy an existing object
         /// </summary>
         /// <param name="C"></param>
-        public BaseObject(BaseObject C): this(C.CO?.Clone(), C.A, C.B) { }
+        public BaseObject(BaseObject C) : this(C.CO?.Clone(), C.A, C.B) { }
 
         /// <summary>
         /// Chain to copy constructor

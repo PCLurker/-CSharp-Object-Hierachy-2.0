@@ -15,7 +15,7 @@ namespace _CSharp__Object_Hierachy_2._0
         /// <param name="B"></param>
         /// <param name="C"></param>
         /// <param name="D"></param>
-        public Derived1Object(ContainerObject CO, int A = 0, int B = 0, int C = 0, int D = 0): base(CO, A, B)
+        public Derived1Object(ContainerObject CO, int A = 0, int B = 0, int C = 0, int D = 0) : base(CO, A, B)
         {
             this.C = C;
             this.D = D;
@@ -33,13 +33,13 @@ namespace _CSharp__Object_Hierachy_2._0
         /// <summary>
         /// Default constructor. All properties initialized with proper default values
         /// </summary>
-        public Derived1Object(): this(new ContainerObject()) { }
+        public Derived1Object() : this(new ContainerObject()) { }
 
         /// <summary>
         /// Deep copy an existing object
         /// </summary>
         /// <param name="C"></param>
-        public Derived1Object(Derived1Object C): this(C.CO?.Clone(), C.A, C.B, C.C, C.D) { }
+        public Derived1Object(Derived1Object C) : this(C.CO?.Clone(), C.A, C.B, C.C, C.D) { }
 
         /// <summary>
         /// Chain to copy constructor
