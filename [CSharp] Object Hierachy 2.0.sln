@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[CSharp] Object Hierachy 2.0", "[CSharp] Object Hierachy 2.0\[CSharp] Object Hierachy 2.0.csproj", "{233C658C-F28B-4801-9DC7-738B4D326722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{233C658C-F28B-4801-9DC7-738B4D326722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233C658C-F28B-4801-9DC7-738B4D326722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233C658C-F28B-4801-9DC7-738B4D326722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233C658C-F28B-4801-9DC7-738B4D326722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {509C8B16-41CF-4496-968B-CE788A52D401}
+	EndGlobalSection
+EndGlobal
